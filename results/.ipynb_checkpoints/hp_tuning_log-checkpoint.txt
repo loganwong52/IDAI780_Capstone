@@ -1,0 +1,7 @@
+Hyperparameter Tuning Log - Started at Tue Mar 31 21:51:05 2026
+================================================================================
+
+CONFIG NUMBER 0: lr=0.001, n_steps=1024, gamma=0.99, batch_size=64, ent_coef=0.0
+New best NDCG@10: 0.6362 with (0.001, 1024, 64, 0.99, 0.0)
+
+CONFIG NUMBER 1: lr=0.001, n_steps=1024, gamma=0.99, batch_size=64, ent_coef=0.01

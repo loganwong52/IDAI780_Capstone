@@ -1,0 +1,495 @@
+Hyperparameter Tuning Log - Started at Tue Mar 31 22:48:46 2026
+================================================================================
+
+CONFIG NUMBER 0: lr=0.0001, n_steps=1024, gamma=0.95, batch_size=64, ent_coef=0.0
+New best NDCG@10: 0.7052 with {'learning_rate': 0.0001, 'n_steps': 1024, 'batch_size': 64, 'gamma': 0.95, 'ent_coef': 0.0, 'Precision@5': 0.6655619162398313, 'Precision@10': 0.6490207893943959, 'NDCG@5': 0.6883816770708258, 'NDCG@10': 0.7051992955383938}
+
+CONFIG NUMBER 1: lr=0.0001, n_steps=1024, gamma=0.95, batch_size=64, ent_coef=0.01
+New best NDCG@10: 0.7061 with {'learning_rate': 0.0001, 'n_steps': 1024, 'batch_size': 64, 'gamma': 0.95, 'ent_coef': 0.01, 'Precision@5': 0.6693582404338657, 'Precision@10': 0.6498342874359747, 'NDCG@5': 0.6905052436325528, 'NDCG@10': 0.706084323938342}
+
+CONFIG NUMBER 2: lr=0.0001, n_steps=1024, gamma=0.95, batch_size=64, ent_coef=0.05
+New best NDCG@10: 0.7150 with {'learning_rate': 0.0001, 'n_steps': 1024, 'batch_size': 64, 'gamma': 0.95, 'ent_coef': 0.05, 'Precision@5': 0.6790599578186202, 'Precision@10': 0.6599276890629707, 'NDCG@5': 0.6986341977077296, 'NDCG@10': 0.7150236244968524}
+
+CONFIG NUMBER 3: lr=0.0001, n_steps=1024, gamma=0.99, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 4: lr=0.0001, n_steps=1024, gamma=0.99, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 5: lr=0.0001, n_steps=1024, gamma=0.99, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 6: lr=0.0001, n_steps=1024, gamma=0.995, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 7: lr=0.0001, n_steps=1024, gamma=0.995, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 8: lr=0.0001, n_steps=1024, gamma=0.995, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 9: lr=0.0001, n_steps=1024, gamma=0.95, batch_size=128, ent_coef=0.0
+New best NDCG@10: 0.7255 with {'learning_rate': 0.0001, 'n_steps': 1024, 'batch_size': 128, 'gamma': 0.95, 'ent_coef': 0.0, 'Precision@5': 0.6868333835492618, 'Precision@10': 0.6686050015064778, 'NDCG@5': 0.7089949000941557, 'NDCG@10': 0.7255101070494643}
+
+CONFIG NUMBER 10: lr=0.0001, n_steps=1024, gamma=0.95, batch_size=128, ent_coef=0.01
+New best NDCG@10: 0.7259 with {'learning_rate': 0.0001, 'n_steps': 1024, 'batch_size': 128, 'gamma': 0.95, 'ent_coef': 0.01, 'Precision@5': 0.6920759264838807, 'Precision@10': 0.6697499246761072, 'NDCG@5': 0.7118415965492906, 'NDCG@10': 0.7258625313078175}
+
+CONFIG NUMBER 11: lr=0.0001, n_steps=1024, gamma=0.95, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 12: lr=0.0001, n_steps=1024, gamma=0.99, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 13: lr=0.0001, n_steps=1024, gamma=0.99, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 14: lr=0.0001, n_steps=1024, gamma=0.99, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 15: lr=0.0001, n_steps=1024, gamma=0.995, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 16: lr=0.0001, n_steps=1024, gamma=0.995, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 17: lr=0.0001, n_steps=1024, gamma=0.995, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 18: lr=0.0001, n_steps=1024, gamma=0.95, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 19: lr=0.0001, n_steps=1024, gamma=0.95, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 20: lr=0.0001, n_steps=1024, gamma=0.95, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 21: lr=0.0001, n_steps=1024, gamma=0.99, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 22: lr=0.0001, n_steps=1024, gamma=0.99, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 23: lr=0.0001, n_steps=1024, gamma=0.99, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 24: lr=0.0001, n_steps=1024, gamma=0.995, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 25: lr=0.0001, n_steps=1024, gamma=0.995, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 26: lr=0.0001, n_steps=1024, gamma=0.995, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 27: lr=0.0001, n_steps=2048, gamma=0.95, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 28: lr=0.0001, n_steps=2048, gamma=0.95, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 29: lr=0.0001, n_steps=2048, gamma=0.95, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 30: lr=0.0001, n_steps=2048, gamma=0.99, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 31: lr=0.0001, n_steps=2048, gamma=0.99, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 32: lr=0.0001, n_steps=2048, gamma=0.99, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 33: lr=0.0001, n_steps=2048, gamma=0.995, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 34: lr=0.0001, n_steps=2048, gamma=0.995, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 35: lr=0.0001, n_steps=2048, gamma=0.995, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 36: lr=0.0001, n_steps=2048, gamma=0.95, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 37: lr=0.0001, n_steps=2048, gamma=0.95, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 38: lr=0.0001, n_steps=2048, gamma=0.95, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 39: lr=0.0001, n_steps=2048, gamma=0.99, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 40: lr=0.0001, n_steps=2048, gamma=0.99, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 41: lr=0.0001, n_steps=2048, gamma=0.99, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 42: lr=0.0001, n_steps=2048, gamma=0.995, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 43: lr=0.0001, n_steps=2048, gamma=0.995, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 44: lr=0.0001, n_steps=2048, gamma=0.995, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 45: lr=0.0001, n_steps=2048, gamma=0.95, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 46: lr=0.0001, n_steps=2048, gamma=0.95, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 47: lr=0.0001, n_steps=2048, gamma=0.95, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 48: lr=0.0001, n_steps=2048, gamma=0.99, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 49: lr=0.0001, n_steps=2048, gamma=0.99, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 50: lr=0.0001, n_steps=2048, gamma=0.99, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 51: lr=0.0001, n_steps=2048, gamma=0.995, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 52: lr=0.0001, n_steps=2048, gamma=0.995, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 53: lr=0.0001, n_steps=2048, gamma=0.995, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 54: lr=0.0001, n_steps=4096, gamma=0.95, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 55: lr=0.0001, n_steps=4096, gamma=0.95, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 56: lr=0.0001, n_steps=4096, gamma=0.95, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 57: lr=0.0001, n_steps=4096, gamma=0.99, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 58: lr=0.0001, n_steps=4096, gamma=0.99, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 59: lr=0.0001, n_steps=4096, gamma=0.99, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 60: lr=0.0001, n_steps=4096, gamma=0.995, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 61: lr=0.0001, n_steps=4096, gamma=0.995, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 62: lr=0.0001, n_steps=4096, gamma=0.995, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 63: lr=0.0001, n_steps=4096, gamma=0.95, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 64: lr=0.0001, n_steps=4096, gamma=0.95, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 65: lr=0.0001, n_steps=4096, gamma=0.95, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 66: lr=0.0001, n_steps=4096, gamma=0.99, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 67: lr=0.0001, n_steps=4096, gamma=0.99, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 68: lr=0.0001, n_steps=4096, gamma=0.99, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 69: lr=0.0001, n_steps=4096, gamma=0.995, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 70: lr=0.0001, n_steps=4096, gamma=0.995, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 71: lr=0.0001, n_steps=4096, gamma=0.995, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 72: lr=0.0001, n_steps=4096, gamma=0.95, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 73: lr=0.0001, n_steps=4096, gamma=0.95, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 74: lr=0.0001, n_steps=4096, gamma=0.95, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 75: lr=0.0001, n_steps=4096, gamma=0.99, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 76: lr=0.0001, n_steps=4096, gamma=0.99, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 77: lr=0.0001, n_steps=4096, gamma=0.99, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 78: lr=0.0001, n_steps=4096, gamma=0.995, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 79: lr=0.0001, n_steps=4096, gamma=0.995, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 80: lr=0.0001, n_steps=4096, gamma=0.995, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 81: lr=0.0003, n_steps=1024, gamma=0.95, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 82: lr=0.0003, n_steps=1024, gamma=0.95, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 83: lr=0.0003, n_steps=1024, gamma=0.95, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 84: lr=0.0003, n_steps=1024, gamma=0.99, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 85: lr=0.0003, n_steps=1024, gamma=0.99, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 86: lr=0.0003, n_steps=1024, gamma=0.99, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 87: lr=0.0003, n_steps=1024, gamma=0.995, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 88: lr=0.0003, n_steps=1024, gamma=0.995, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 89: lr=0.0003, n_steps=1024, gamma=0.995, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 90: lr=0.0003, n_steps=1024, gamma=0.95, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 91: lr=0.0003, n_steps=1024, gamma=0.95, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 92: lr=0.0003, n_steps=1024, gamma=0.95, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 93: lr=0.0003, n_steps=1024, gamma=0.99, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 94: lr=0.0003, n_steps=1024, gamma=0.99, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 95: lr=0.0003, n_steps=1024, gamma=0.99, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 96: lr=0.0003, n_steps=1024, gamma=0.995, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 97: lr=0.0003, n_steps=1024, gamma=0.995, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 98: lr=0.0003, n_steps=1024, gamma=0.995, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 99: lr=0.0003, n_steps=1024, gamma=0.95, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 100: lr=0.0003, n_steps=1024, gamma=0.95, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 101: lr=0.0003, n_steps=1024, gamma=0.95, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 102: lr=0.0003, n_steps=1024, gamma=0.99, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 103: lr=0.0003, n_steps=1024, gamma=0.99, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 104: lr=0.0003, n_steps=1024, gamma=0.99, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 105: lr=0.0003, n_steps=1024, gamma=0.995, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 106: lr=0.0003, n_steps=1024, gamma=0.995, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 107: lr=0.0003, n_steps=1024, gamma=0.995, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 108: lr=0.0003, n_steps=2048, gamma=0.95, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 109: lr=0.0003, n_steps=2048, gamma=0.95, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 110: lr=0.0003, n_steps=2048, gamma=0.95, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 111: lr=0.0003, n_steps=2048, gamma=0.99, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 112: lr=0.0003, n_steps=2048, gamma=0.99, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 113: lr=0.0003, n_steps=2048, gamma=0.99, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 114: lr=0.0003, n_steps=2048, gamma=0.995, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 115: lr=0.0003, n_steps=2048, gamma=0.995, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 116: lr=0.0003, n_steps=2048, gamma=0.995, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 117: lr=0.0003, n_steps=2048, gamma=0.95, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 118: lr=0.0003, n_steps=2048, gamma=0.95, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 119: lr=0.0003, n_steps=2048, gamma=0.95, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 120: lr=0.0003, n_steps=2048, gamma=0.99, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 121: lr=0.0003, n_steps=2048, gamma=0.99, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 122: lr=0.0003, n_steps=2048, gamma=0.99, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 123: lr=0.0003, n_steps=2048, gamma=0.995, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 124: lr=0.0003, n_steps=2048, gamma=0.995, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 125: lr=0.0003, n_steps=2048, gamma=0.995, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 126: lr=0.0003, n_steps=2048, gamma=0.95, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 127: lr=0.0003, n_steps=2048, gamma=0.95, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 128: lr=0.0003, n_steps=2048, gamma=0.95, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 129: lr=0.0003, n_steps=2048, gamma=0.99, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 130: lr=0.0003, n_steps=2048, gamma=0.99, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 131: lr=0.0003, n_steps=2048, gamma=0.99, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 132: lr=0.0003, n_steps=2048, gamma=0.995, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 133: lr=0.0003, n_steps=2048, gamma=0.995, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 134: lr=0.0003, n_steps=2048, gamma=0.995, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 135: lr=0.0003, n_steps=4096, gamma=0.95, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 136: lr=0.0003, n_steps=4096, gamma=0.95, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 137: lr=0.0003, n_steps=4096, gamma=0.95, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 138: lr=0.0003, n_steps=4096, gamma=0.99, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 139: lr=0.0003, n_steps=4096, gamma=0.99, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 140: lr=0.0003, n_steps=4096, gamma=0.99, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 141: lr=0.0003, n_steps=4096, gamma=0.995, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 142: lr=0.0003, n_steps=4096, gamma=0.995, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 143: lr=0.0003, n_steps=4096, gamma=0.995, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 144: lr=0.0003, n_steps=4096, gamma=0.95, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 145: lr=0.0003, n_steps=4096, gamma=0.95, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 146: lr=0.0003, n_steps=4096, gamma=0.95, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 147: lr=0.0003, n_steps=4096, gamma=0.99, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 148: lr=0.0003, n_steps=4096, gamma=0.99, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 149: lr=0.0003, n_steps=4096, gamma=0.99, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 150: lr=0.0003, n_steps=4096, gamma=0.995, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 151: lr=0.0003, n_steps=4096, gamma=0.995, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 152: lr=0.0003, n_steps=4096, gamma=0.995, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 153: lr=0.0003, n_steps=4096, gamma=0.95, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 154: lr=0.0003, n_steps=4096, gamma=0.95, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 155: lr=0.0003, n_steps=4096, gamma=0.95, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 156: lr=0.0003, n_steps=4096, gamma=0.99, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 157: lr=0.0003, n_steps=4096, gamma=0.99, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 158: lr=0.0003, n_steps=4096, gamma=0.99, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 159: lr=0.0003, n_steps=4096, gamma=0.995, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 160: lr=0.0003, n_steps=4096, gamma=0.995, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 161: lr=0.0003, n_steps=4096, gamma=0.995, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 162: lr=0.001, n_steps=1024, gamma=0.95, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 163: lr=0.001, n_steps=1024, gamma=0.95, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 164: lr=0.001, n_steps=1024, gamma=0.95, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 165: lr=0.001, n_steps=1024, gamma=0.99, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 166: lr=0.001, n_steps=1024, gamma=0.99, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 167: lr=0.001, n_steps=1024, gamma=0.99, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 168: lr=0.001, n_steps=1024, gamma=0.995, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 169: lr=0.001, n_steps=1024, gamma=0.995, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 170: lr=0.001, n_steps=1024, gamma=0.995, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 171: lr=0.001, n_steps=1024, gamma=0.95, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 172: lr=0.001, n_steps=1024, gamma=0.95, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 173: lr=0.001, n_steps=1024, gamma=0.95, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 174: lr=0.001, n_steps=1024, gamma=0.99, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 175: lr=0.001, n_steps=1024, gamma=0.99, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 176: lr=0.001, n_steps=1024, gamma=0.99, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 177: lr=0.001, n_steps=1024, gamma=0.995, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 178: lr=0.001, n_steps=1024, gamma=0.995, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 179: lr=0.001, n_steps=1024, gamma=0.995, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 180: lr=0.001, n_steps=1024, gamma=0.95, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 181: lr=0.001, n_steps=1024, gamma=0.95, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 182: lr=0.001, n_steps=1024, gamma=0.95, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 183: lr=0.001, n_steps=1024, gamma=0.99, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 184: lr=0.001, n_steps=1024, gamma=0.99, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 185: lr=0.001, n_steps=1024, gamma=0.99, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 186: lr=0.001, n_steps=1024, gamma=0.995, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 187: lr=0.001, n_steps=1024, gamma=0.995, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 188: lr=0.001, n_steps=1024, gamma=0.995, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 189: lr=0.001, n_steps=2048, gamma=0.95, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 190: lr=0.001, n_steps=2048, gamma=0.95, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 191: lr=0.001, n_steps=2048, gamma=0.95, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 192: lr=0.001, n_steps=2048, gamma=0.99, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 193: lr=0.001, n_steps=2048, gamma=0.99, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 194: lr=0.001, n_steps=2048, gamma=0.99, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 195: lr=0.001, n_steps=2048, gamma=0.995, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 196: lr=0.001, n_steps=2048, gamma=0.995, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 197: lr=0.001, n_steps=2048, gamma=0.995, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 198: lr=0.001, n_steps=2048, gamma=0.95, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 199: lr=0.001, n_steps=2048, gamma=0.95, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 200: lr=0.001, n_steps=2048, gamma=0.95, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 201: lr=0.001, n_steps=2048, gamma=0.99, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 202: lr=0.001, n_steps=2048, gamma=0.99, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 203: lr=0.001, n_steps=2048, gamma=0.99, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 204: lr=0.001, n_steps=2048, gamma=0.995, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 205: lr=0.001, n_steps=2048, gamma=0.995, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 206: lr=0.001, n_steps=2048, gamma=0.995, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 207: lr=0.001, n_steps=2048, gamma=0.95, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 208: lr=0.001, n_steps=2048, gamma=0.95, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 209: lr=0.001, n_steps=2048, gamma=0.95, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 210: lr=0.001, n_steps=2048, gamma=0.99, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 211: lr=0.001, n_steps=2048, gamma=0.99, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 212: lr=0.001, n_steps=2048, gamma=0.99, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 213: lr=0.001, n_steps=2048, gamma=0.995, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 214: lr=0.001, n_steps=2048, gamma=0.995, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 215: lr=0.001, n_steps=2048, gamma=0.995, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 216: lr=0.001, n_steps=4096, gamma=0.95, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 217: lr=0.001, n_steps=4096, gamma=0.95, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 218: lr=0.001, n_steps=4096, gamma=0.95, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 219: lr=0.001, n_steps=4096, gamma=0.99, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 220: lr=0.001, n_steps=4096, gamma=0.99, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 221: lr=0.001, n_steps=4096, gamma=0.99, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 222: lr=0.001, n_steps=4096, gamma=0.995, batch_size=64, ent_coef=0.0
+
+CONFIG NUMBER 223: lr=0.001, n_steps=4096, gamma=0.995, batch_size=64, ent_coef=0.01
+
+CONFIG NUMBER 224: lr=0.001, n_steps=4096, gamma=0.995, batch_size=64, ent_coef=0.05
+
+CONFIG NUMBER 225: lr=0.001, n_steps=4096, gamma=0.95, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 226: lr=0.001, n_steps=4096, gamma=0.95, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 227: lr=0.001, n_steps=4096, gamma=0.95, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 228: lr=0.001, n_steps=4096, gamma=0.99, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 229: lr=0.001, n_steps=4096, gamma=0.99, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 230: lr=0.001, n_steps=4096, gamma=0.99, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 231: lr=0.001, n_steps=4096, gamma=0.995, batch_size=128, ent_coef=0.0
+
+CONFIG NUMBER 232: lr=0.001, n_steps=4096, gamma=0.995, batch_size=128, ent_coef=0.01
+
+CONFIG NUMBER 233: lr=0.001, n_steps=4096, gamma=0.995, batch_size=128, ent_coef=0.05
+
+CONFIG NUMBER 234: lr=0.001, n_steps=4096, gamma=0.95, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 235: lr=0.001, n_steps=4096, gamma=0.95, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 236: lr=0.001, n_steps=4096, gamma=0.95, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 237: lr=0.001, n_steps=4096, gamma=0.99, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 238: lr=0.001, n_steps=4096, gamma=0.99, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 239: lr=0.001, n_steps=4096, gamma=0.99, batch_size=256, ent_coef=0.05
+
+CONFIG NUMBER 240: lr=0.001, n_steps=4096, gamma=0.995, batch_size=256, ent_coef=0.0
+
+CONFIG NUMBER 241: lr=0.001, n_steps=4096, gamma=0.995, batch_size=256, ent_coef=0.01
+
+CONFIG NUMBER 242: lr=0.001, n_steps=4096, gamma=0.995, batch_size=256, ent_coef=0.05
+Best config: {'learning_rate': 0.0001, 'n_steps': 1024, 'batch_size': 128, 'gamma': 0.95, 'ent_coef': 0.01, 'Precision@5': 0.6920759264838807, 'Precision@10': 0.6697499246761072, 'NDCG@5': 0.7118415965492906, 'NDCG@10': 0.7258625313078175} with NDCG@10=0.7259
+Total time: 10:05:59
