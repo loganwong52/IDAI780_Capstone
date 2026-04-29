@@ -1,5 +1,5 @@
 <!-- # Project title and author info provided in ReadMe.md -->
-# Explainable Movie Recomendations: A PPO-Trained Movie Recommender System with LIME and SHAP Explanations
+# Explainable Movie Recommendations: A PPO-Trained Movie Recommender System with LIME and SHAP Explanations
 Logan Wong
 
 law3082@g.rit.edu
