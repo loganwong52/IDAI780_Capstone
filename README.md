@@ -334,6 +334,68 @@ Including tables for all 5 users will be very long, so I'll only show LIME and S
 | Star Trek: The Motion Picture (1979) | 5.0 | 0.01 | + |
 
 
+# Directory Structure
+<!-- Generated using this command:  tree -I node_modules > structure.txt -->
+```
+Capstone/
+├── README.md
+├── data/              # Contains pre-processed data to load to avoid constantly preprocessing data
+│   ├── ml-1m/         # Contains the original MovieLens 1M Dataset users, movies, and ratings
+│   ├── movielens_1M_pmf_raw_data.csv
+│   ├── avg_train_set_movie_ratings.pkl
+│   ├── movie_embeddings.npy
+│   ├── user_embeddings.npy
+│   ├── idx2user.pkl
+│   ├── user2idx.pkl
+│   ├── idx2movie.pkl
+│   ├── movie2idx.pkl
+│   ├── movie_id_to_title.pkl
+│   ├── movie_index_to_title.pkl
+│   ├── ratings_dict.pkl
+│   ├── user_sequences.pkl
+│   ├── user_sequences_idx.pkl
+│   ├── train_sequences.pkl
+│   ├── train_sequences_64.pkl
+│   ├── train_sequences_idx.pkl
+│   ├── train_sequences_idx_64.pkl
+│   ├── valid_sequences.pkl
+│   ├── valid_sequences_idx.pkl
+│   ├── test_sequences.pkl
+│   └── test_sequences_idx.pkl
+├── figures/         # Contains images and graphs
+├── models/          # Contains all trained models 
+├── notebooks/       # Jupyter Notebook files to train & eval Baseline & PPO models
+│   ├── baseline_DDPG.ipynb
+│   ├── baseline_DDPG_Eval.ipynb
+│   ├── baseline_DDPG_LIME_Explanations.ipynb
+│   ├── baseline_DDPG_SHAP_Explanations.ipynb
+│   ├── PPO_HP_Tuning.ipynb
+│   ├── PPO.ipynb
+│   ├── eval_PPO.ipynb
+│   ├── PPO_LIME.ipynb
+│   ├── PPO_SHAP.ipynb
+│   ├── PPO_SHAP_2.ipynb
+│   ├── PPO_SHAP_explanations.pkl
+│   ├── PPO_SHAP_explanations_2.pkl
+│   ├── Ablation_Studies_PPO.ipynb
+│   ├── eval_Ablation_Studies_PPO.ipynb
+│   └── see_train_curves.ipynb
+├── results/
+│   ├── baseline_evaluation_metrics.json
+│   ├── baseline_session_trajectories.pkl
+│   ├── PPO_HP_Tuning/          # Contains hyperparameter tuning tensorboard train curves
+│   ├── hp_tuning_log.txt
+│   ├── PPO_TB/                 # Contains PPO tensorboard train curves
+│   ├── PPO_AbStudy_TB/         # Contains all ablation studies tensorboard train curves
+│   ├── PPO_ablation_study_results.pkl
+│   └── PPO_session_trajectories.pkl
+├── scripts/
+│   ├── dataset_EDA.ipynb
+│   ├── view_test_set.ipynb
+│   ├── baseline_PMF_Embeddings.ipynb
+│   ├── baseline_data_splitting.ipynb
+│   └── 2D_embeddings_plot.ipynb
+```
 
 <!-- Reference info and acknowledgment (e.g., if your code is built on another repo, you should cite and thank their work here).  -->
 # Reference Info
