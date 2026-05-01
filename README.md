@@ -42,13 +42,11 @@ The test set is filtered to contain only evaluable users: a user who has at leas
 Inside the notebook folder:
 
 To train the baseline:
-1. Run popularity_baseline_1.ipynb
-2. Run popularity_baseline_2.ipynb
-3. Run baseline_DDPG.ipynb
+1. Run baseline_DDPG.ipynb
 
 ---
 
-To train the model:
+To train the PPO model:
 1. Run PPO_HP_Tuning.ipynb
 2. Run PPO.ipynb
 
@@ -94,12 +92,12 @@ Inside the notebook folder:
 <!-- Key project results provided in tables/figures/charts.  -->
 # Results
 ## Paper's Baselines and Results vs. my Baselines and my results:
-| Metric | DRR Paper Pop. Baseline | MY Pop. Baseline 1 | MY Pop. Baseline 2 | DRR Paper DRR-Ave | MY DRR-Ave Baseline | My BEST PPO (500k)
-|--------|------------------------|-------------------|-------------------|------------------|--------------------|--------------------|
-| Precision@5  | 0.7141 | 0.7319 | 0.6927 | 0.7693 | 0.6025 | 0.6588 | 0.6829 |
-| Precision@10 | 0.6181 | 0.6345 | 0.6070 | 0.6594 | 0.5448 | 0.5868 | 0.6017 |
-| NDCG@5       | 0.8906 | 0.7843 | 0.8617 | 0.9112 | 0.6320 | 0.6981 | 0.7273 | 
-| NDCG@10      | 0.8738 | 0.8008 | 0.8614 | 0.8980 | 0.6753 | 0.7320 | 0.7554 | 
+| Metric | DRR Paper DRR-Ave | MY DRR-Ave Baseline | My BEST PPO (500k)
+|--------|------------------|--------------------|--------------------|
+| Precision@5  | 0.6025 | 0.6588 | 0.6829 |
+| Precision@10 | 0.5448 | 0.5868 | 0.6017 |
+| NDCG@5       | 0.6320 | 0.6981 | 0.7273 | 
+| NDCG@10      | 0.8980 | 0.6753 | 0.7554 | 
 
 ## Ablation Study Results:
 
